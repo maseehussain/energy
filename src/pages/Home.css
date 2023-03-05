@@ -16,6 +16,7 @@
 
 .header__title {
     font-weight: 900;
+    letter-spacing: 0.065em;
 }
 
 .header__icons {
