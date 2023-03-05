@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.header__info {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+}
+
+.header__title {
+    font-weight: 900;
+}
+
+.header__icons {
+    margin-left: -2%
+}

@@ -1,11 +1,12 @@
+import '../src/pages/Home.css';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import Home from '../src/components/Home';
+import Home from './pages/Home';
 
 function App() {
   return (
-      <div className="container">
+      <div className="wrapper">
           <BrowserRouter>
             <Home />
           </BrowserRouter>
